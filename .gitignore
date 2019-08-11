@@ -31,9 +31,11 @@
 *.out
 *.app
 
-*.tlog
 /3D Render/x64/Debug
 /3D Render/Debug
 /.vs/WireRender/v15
 /Debug
 /x64/Debug
+
+# Allow
+!/x64/Debug/*.dll
