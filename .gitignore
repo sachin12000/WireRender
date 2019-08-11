@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -35,7 +34,7 @@
 /3D Render/Debug
 /.vs/WireRender/v15
 /Debug
-/x64/Debug
-
-# Allow
-!/x64/Debug/*.dll
+/x64/Debug/WireRender.pdb
+/x64/Debug/WireRender.ilk
+/x64/Debug/3D Render.pdb
+/x64/Debug/3D Render.ilk
